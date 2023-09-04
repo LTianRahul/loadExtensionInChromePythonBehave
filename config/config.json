@@ -1,10 +1,15 @@
 [
-    {
-      "platform": "Windows 10",
-      "browserName": "chrome",
-      "version": "latest",
-      "build": "Behave Selenium Sample",
-      "name": "Behave Sample Test"
+  {
+    "browserName": "Chrome",
+    "browserVersion": "117.0",
+    "LT:Options": {
+      "username": "rahulkumarlambdatest",
+      "accessKey": "dboZK7so8koMnIR1tN11aKfMgxyKtDpb90IlyaCj4n6n7tQeK6",
+      "platformName": "Windows 10",
+      "project": "TestingBehave",
+      "w3c": true,
+      "plugin": "python-behave"
     }
+  }
   ]
   
