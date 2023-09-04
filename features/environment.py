@@ -40,7 +40,7 @@ def before_feature(context, feature):
         # Step - 3 : Run "driver.execute_script("smartui.takeScreenshot")" command wherever you need to take a screenshot
         # Note: for additional capabilities navigate to https://www.lambdatest.com/support/docs/test-settings-options/
         context.driver = webdriver.Remote(
-            command_executor="http://rahulkumarlambdatest:dboZK7so8koMnIR1tN11aKfMgxyKtDpb90IlyaCj4n6n7tQeK6@hub.lambdatest.com/wd/hub".format(
+            command_executor="http://"+username+":"+authkey+"@hub.lambdatest.com/wd/hub".format(
                 lt_options["username"], lt_options["accessKey"]),
             options=options)
  
