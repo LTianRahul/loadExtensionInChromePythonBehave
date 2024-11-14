@@ -263,9 +263,9 @@ Latest set up
 Install the requirements
  pip install -r requirements.txt    
 
- Set your username and accesskey
+Set your username and accesskey
  export LT_USERNAME=""
-export LT_ACCESS_KEY=""
+ export LT_ACCESS_KEY=""
 
 Run the test
-behave features/test.feature      
+ behave features/test.feature      
