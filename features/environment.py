@@ -18,7 +18,7 @@ username = os.environ["LT_USERNAME"]
 authkey = os.environ["LT_ACCESS_KEY"]
 
 def before_feature(context, feature):
-        chrome_extension = ["https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-550422/3.56.0_0.zip"]
+        chrome_extension = ["https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-555555/3.56.0_0.zip"]
 
         options = Options()
         options.browser_version = "130"
