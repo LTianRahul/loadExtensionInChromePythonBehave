@@ -24,8 +24,8 @@ def before_feature(context, feature):
         options.browser_version = "130"
         options.platform_name = "Windows 10"
         lt_options = {
-            "username": "rahulkumarlambdatest",
-            "accessKey": "dboZK7so8koMnIR1tN11aKfMgxyKtDpb90IlyaCj4n6n7tQeK6",
+            "username": "{LT_Username}",
+            "accessKey": "{LT_AccessKey}",
             "project": "Untitled",
             "lambda:loadExtension": chrome_extension,
             "browserName": "Chrome",
@@ -35,7 +35,7 @@ def before_feature(context, feature):
         options.set_capability('LT:Options', lt_options)
         
         context.driver = webdriver.Remote(
-            command_executor="http://rahulkumarlambdatest:dboZK7so8koMnIR1tN11aKfMgxyKtDpb90IlyaCj4n6n7tQeK6@hub.lambdatest.com/wd/hub".format(
+            command_executor="http://{LT_Username}:{LT_AccessKey}@hub.lambdatest.com/wd/hub".format(
                 lt_options["username"], lt_options["accessKey"]),
             options=options)
  
