@@ -263,6 +263,8 @@ Latest set up
 Install the requirements
  pip install -r requirements.txt    
 
+Update extension URL in environment.py file
+
 Set your username and accesskey
  export LT_USERNAME=""
  export LT_ACCESS_KEY=""
