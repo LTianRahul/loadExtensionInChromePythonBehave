@@ -3,12 +3,14 @@
     "browserName": "Chrome",
     "browserVersion": "117.0",
     "LT:Options": {
-      "username": "LT_UserName",
-      "accessKey": "LT_AuthKey",
+      "username": "rahulkumarlambdatest",
+      "accessKey": "dboZK7so8koMnIR1tN11aKfMgxyKtDpb90IlyaCj4n6n7tQeK6",
       "platformName": "Windows 10",
       "project": "TestingBehave",
+      "name": "load extension",
       "w3c": true,
-      "plugin": "python-behave"
+      "plugin": "python-behave",
+      "lambda:loadExtension": "https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-550422/3.56.0_0.zip"
     }
   }
   ]
