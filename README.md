@@ -256,3 +256,16 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 
 * Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
 * For more info, visit - [LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=python-behave-selenium)
+
+
+
+Latest set up
+Install the requirements
+ pip install -r requirements.txt    
+
+ Set your username and accesskey
+ export LT_USERNAME=""
+export LT_ACCESS_KEY=""
+
+Run the test
+behave features/test.feature      
